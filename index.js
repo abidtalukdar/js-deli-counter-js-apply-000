@@ -1,13 +1,19 @@
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name);
-  var i ;
-  var number = "" ;
-  for ( i = 0; i <= katzDeliLine.length; i++ ) {
-    if (katzDeliLine[i] === name) {
-      number+=(i + 1) ;
-    return "Welcome, " + name + ". You are number " + number + " in line." ; } }
-  return katzDeliLine ;
-}  
+// function takeANumber(katzDeliLine, name) {
+//   katzDeliLine.push(name); 
+//   var i ;
+//   var number = "" ;
+//   for ( i = 0; i <= katzDeliLine.length; i++ ) {
+//     if (katzDeliLine[i] === name) {
+//       number+=(i + 1) ;
+//     return "Welcome, " + name + ". You are number " + number + " in line." ; } }
+//   return katzDeliLine ;
+// }  
+
+function takeANumber(katzDeliLine) {
+  var i;
+  for (var i=0; )
+  
+}
 
 function nowServing(katzDeliLine) {
   var first = "" ;
